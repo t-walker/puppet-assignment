@@ -1,0 +1,29 @@
+.navBar {
+    height: 50px;
+    background: #FF0000;
+    width: 100%;
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 0 0 0;
+    padding: 0 40px;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 16px 30px 16px 30px;
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    display: block;
+    padding: 16px 30px 16px 30px;
+    background: #FFFF00;
+
+}
