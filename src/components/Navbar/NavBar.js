@@ -16,6 +16,7 @@ class Navbar extends Component {
 
     return navItems;
   }
+  
   render() {
     return (
       <div className="navBar">

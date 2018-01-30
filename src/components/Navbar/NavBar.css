@@ -21,9 +21,15 @@ a {
     text-decoration: none;
     color: white;
 }
+
+a:active {
+    color: blue;
+    background: #00FFFF;
+
+}
 a:hover {
     display: block;
     padding: 16px 30px 16px 30px;
     background: #FFFF00;
-
+    color: blue;
 }
