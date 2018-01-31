@@ -159,10 +159,10 @@ class DataTable extends Component {
 
     return (
       <div  className="controls">
-        <div style={{width: "8%", display: "inline-block"}}>
+        <div style={{width: "7%", display: "inline-block"}}>
           {this.listHeader()}
         </div>
-        <div style={{width: "1%", display: "inline-block"}}>
+        <div style={{width: ".5%", display: "inline-block"}}>
           {this.pipeDivider()} 
         </div>
         <div style={{width: "20%", display: "inline-block"}}>
