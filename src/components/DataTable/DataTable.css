@@ -16,7 +16,6 @@ table th{
     font-weight: 700;
     color: #95A2AA;
     padding-left: 10px;
-
 }
 
 table th:first-child{
@@ -32,6 +31,10 @@ table tr {
     font-size: .75rem;
     font-weight: 400;
     color: #808285;
+
+}
+
+table td {
     padding-left: 10px;
 }
 

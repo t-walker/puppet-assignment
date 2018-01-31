@@ -2,30 +2,29 @@
     height: 50px;
     background: #282653;
     width: 100%;
-    float: left;
-    margin-bottom: 20px;
 }
 
 ul {
+    list-style-type: none;
+    padding: 0;
+    width: 90%;
+    margin: 0;
+
     font-size: .75rem;
     font-weight: 400;
     color: #95A2AA;
-    list-style-type: none;
-    margin: 0 0 0 0;
-    padding: 0 0;
-    width: 90%;
-    margin: auto;
 }
 
 li {
     float: left;
+    height: 55px;
 }
 
 a {
-    display: block;
-    padding: 16px 25px 16px 25px;
     text-decoration: none;
     color: white;
+    display: block;
+    padding: 18px 16px;
 }
 
 a:active {
