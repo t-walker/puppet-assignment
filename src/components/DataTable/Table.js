@@ -1,10 +1,21 @@
 import React, { Component } from 'react';
+import TableRow from './TableRow';
 
 class Table extends Component {
+  renderColumns() {
+    let rows = []; 
+
+    for (let i = 0; i < this.props.data.length; i++) {
+      let row = this.props.data[i];
+      rows.push(<TableRow key={i} data={row} />);
+    }
+
+    return rows;
+  }
 
   render() {
     return (
-      <table className="dataTable" cellspacing="0">
+      <table className="dataTable" cellSpacing="0">
         <thead>
           <tr>
             <th width="10%">First Name</th>
@@ -18,46 +29,7 @@ class Table extends Component {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>Zachary</td>
-            <td>Borgetti</td>
-            <td>USA</td>
-            <td>2234 3rd AVE STE 3</td>
-            <td>Seattle</td>
-            <td>WA</td>
-            <td>98101</td>
-            <td>206-778-5741</td>
-          </tr>
-          <tr>
-            <td>Zachary</td>
-            <td>Borgetti</td>
-            <td>USA</td>
-            <td>2234 3rd AVE STE 3</td>
-            <td>Seattle</td>
-            <td>WA</td>
-            <td>98101</td>
-            <td>206-778-5741</td>
-          </tr>
-          <tr>
-            <td>Zachary</td>
-            <td>Borgetti</td>
-            <td>USA</td>
-            <td>2234 3rd AVE STE 3</td>
-            <td>Seattle</td>
-            <td>WA</td>
-            <td>98101</td>
-            <td>206-778-5741</td>
-          </tr>
-          <tr>
-            <td>Zachary</td>
-            <td>Borgetti</td>
-            <td>USA</td>
-            <td>2234 3rd AVE STE 3</td>
-            <td>Seattle</td>
-            <td>WA</td>
-            <td>98101</td>
-            <td>206-778-5741</td>
-          </tr>
+          {this.renderColumns()}
         </tbody>
       </table>
     );

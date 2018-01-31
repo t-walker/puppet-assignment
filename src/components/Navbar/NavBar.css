@@ -2,11 +2,11 @@
     height: 50px;
     background: #282653;
     width: 100%;
+    margin-bottom: 10px;
 }
 
-ul {
+.navBar ul {
     list-style-type: none;
-    padding: 0;
     width: 90%;
     margin: 0;
 
@@ -15,24 +15,24 @@ ul {
     color: #95A2AA;
 }
 
-li {
+.navBar li {
     float: left;
     height: 55px;
 }
 
-a {
+.navBar a {
     text-decoration: none;
     color: white;
     display: block;
     padding: 18px 16px;
 }
 
-a:active {
+.navBar a:active {
     color: blue;
     background: #00FFFF;
 
 }
-a:hover {
+.navBar a:hover {
     display: block;
     background: #7F56C5;
     color: #FFFFFF;

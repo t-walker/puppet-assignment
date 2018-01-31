@@ -1,3 +1,7 @@
+* {
+    font-family: Arial;
+}
+
 .dataTableContainer { 
     width: 100%;
     float: left;
@@ -44,4 +48,41 @@ table tr:nth-child(even) {
 
 table tr:nth-child(odd) {
     background: #F7F7F7;
+}
+
+.controls {
+    width: 90%; 
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.listHeader {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #7F56C5;
+}
+
+.pipeDivider {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #BCBEC0;
+}
+
+.pagination {
+    font-size: .875rem;
+    font-weight: 700, 400, 700;
+    color: #7F56C5;
+}
+
+.arrows {
+    color: #1DAFE9;
+    border: none;
+}
+
+select {
+    border: 0;
+    font-size: .875rem;
+    background: none;
+    color:  #1DAFE9;
+    overflow: hidden;
 }
