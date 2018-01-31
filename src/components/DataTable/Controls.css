@@ -1,0 +1,17 @@
+.controls {
+    width: 90%; 
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.listHeader {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #7F56C5;
+}
+
+.pipeDivider {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #BCBEC0;
+}

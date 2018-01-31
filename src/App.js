@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import NavBar from './components/Navbar/NavBar';
 
 import './App.css';
+import DataTable from './components/DataTable/DataTable';
 
 class App extends Component {
   constructor() {
@@ -19,6 +20,7 @@ class App extends Component {
     return (
       <div className="App">
         <NavBar paths={this.paths} />
+        <DataTable />
       </div>
     );
   }

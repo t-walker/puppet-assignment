@@ -1,14 +1,20 @@
 .navBar {
     height: 50px;
-    background: #FF0000;
+    background: #282653;
     width: 100%;
     float: left;
+    margin-bottom: 20px;
 }
 
 ul {
+    font-size: .75rem;
+    font-weight: 400;
+    color: #95A2AA;
     list-style-type: none;
     margin: 0 0 0 0;
-    padding: 0 40px;
+    padding: 0 0;
+    width: 90%;
+    margin: auto;
 }
 
 li {
@@ -17,7 +23,7 @@ li {
 
 a {
     display: block;
-    padding: 16px 30px 16px 30px;
+    padding: 16px 25px 16px 25px;
     text-decoration: none;
     color: white;
 }
@@ -29,7 +35,6 @@ a:active {
 }
 a:hover {
     display: block;
-    padding: 16px 30px 16px 30px;
-    background: #FFFF00;
-    color: blue;
+    background: #7F56C5;
+    color: #FFFFFF;
 }
